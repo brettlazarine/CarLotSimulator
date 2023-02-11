@@ -18,6 +18,11 @@ namespace CarLotSimulator
         public string HonkNoise { get; set; }
         public bool IsDriveable { get; set; }
 
+        public Car (int year)
+        {
+            Year = year;
+        }
+
         public void MakeEngineNoise()
         {
             Console.WriteLine(this.EngineNoise);

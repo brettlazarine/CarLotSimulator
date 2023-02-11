@@ -70,11 +70,8 @@ namespace CarLotSimulator
             // Set the properties utilizing the 3 different ways we learned about, one way for each car -- DONE 
 
             //cuda.EngineNoise = "BangBoomPop";                 //1
-            // var power = new Car () {Year = 1949};            //2
-            // var telly = new Car ()
-            //{
-            //  Year = 2023;                                    //3
-            //}
+            //var power = new Car() {Year = 1949};              //2
+            //var telly = new Car(2023);                        //3
 
             //*************BONUS X 2*************//
 
